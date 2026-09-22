@@ -211,6 +211,7 @@ height:350px;
  margin-top:5px;
  text-align: center;
  display: none;
+  transition:0.3s;
 }
 .pie-card {
   width:40%;
@@ -225,6 +226,7 @@ height:350px;
 
 .card1 div:hover .desc {
  display:flex;
+  transform:translateY(-10px)
 }
 .card1 div h4{
  margin-top: 10px;
